@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme{
+  --color-main-dark: #001514;
+  --color-main-light: #FBFFFE;
+  --color-main-red: #6B0504;
+  --color-main-orange: #A3320B;
+  --color-main-yellow: #D4A900;
+  --font-figne: "figne";
+}
+:root {
+  --color-main-dark: #001514;   /* your base — hue 177°, this is level 900 */
+
+  --molding-50:  #164e4a;  /* brightest highlight */
+  --molding-100: #001810;
+  --molding-200: #001514;
+  --molding-300: #001313;
+  --molding-400: #001514;
+  --molding-500: #153f3c;
+  --molding-600: #164e4a;
+  --molding-700: #134745;
+  --molding-800: #042321;
+  --molding-900: #001613;  /* = --color-main-dark, shadow melts into wall */
+}
+
+body{
+  background-color: #001514;
+  color: #FBFFFE;
+  background-image: url("js_bg.jpg");
+}
+
+@font-face {
+  font-family: "figne";
+  src: url("Finge.woff");
+  font-display: swap;
+}
