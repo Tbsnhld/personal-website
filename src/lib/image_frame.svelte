@@ -8,7 +8,7 @@
 			<div class="innerBevel">
 				<img
 					src={image_url}
-					alt="Map of the U.S. during the Civil War"
+					alt="Profile Picture"
 					width="382"
 					height="326"
 					class="map"
@@ -19,13 +19,6 @@
 </figure>
 
 <style>
-	/*
-	IMAGE CREDITS
-
-	Map from: http://www.davidrumsey.com/maps3700.html
-	Digital images and descriptive data © 2000 by Cartography Associates.
-	'Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact carto@luna-img.com. This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.'
-*/
 
 	* {
 		padding: 0;
