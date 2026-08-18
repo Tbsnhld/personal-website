@@ -7,7 +7,7 @@
   --color-main-red: #6B0504;
   --color-main-orange: #A3320B;
   --color-main-yellow: #D4A900;
-  --font-figne: "figne";
+  --font-figne: "ArtNouveauCaps";
 }
 :root {
   --color-main-dark: #001514;   /* your base — hue 177°, this is level 900 */
@@ -31,7 +31,7 @@ body{
 }
 
 @font-face {
-  font-family: "figne";
-  src: url("Finge.woff");
+  font-family: "ArtNouveauCaps";
+  src: url("ArtNouveauCaps.ttf");
   font-display: swap;
 }
