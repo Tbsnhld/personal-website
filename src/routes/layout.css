@@ -94,7 +94,9 @@
   --font-behrensschrift: "Behrensschrift";
   --font-artnouveau: "ArtNouveauCaps";
   --font-lora: "Lora";
+  --font-bodoniamoda: "BodoniModa";
 }
+
 :root {
   --color-main-dark: #001514;   /* your base — hue 177°, this is level 900 */
 
@@ -273,5 +275,9 @@ body{
   font-weight: bold; 
   src: url("Finge.woff"); 
   font-display: swap;
+}
 
+@font-face {
+  font-family: "BodoniModa";
+  src: url("BodoniModa-Italic.ttf"); 
 }
