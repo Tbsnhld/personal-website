@@ -5,7 +5,7 @@
 
 <div class="flex h-full min-h-0 flex-col p-[2vw] lg:pr-[5vw] lg:pl-[5vw]">
 	<div class="flex flex-shrink-0 grow flex-col gap-8 lg:flex-row">
-		<div class="mt-[2vh] mr-[10vw] hidden flex-none flex-shrink-0 2xl:inline">
+		<div class="mr-[10vw] hidden 2xl:inline-flex flex flex-col justify-center">
 			<ImageFrame image_url="/icon.jpg" />
 		</div>
 
@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="jugendstil-border">
-				<h1 class="mb-8 font-figne text-[8vw] text-main-yellow lg:text-[4vw] 2xl:text-[4vh]">
+				<h1 class="mb-8 font-bodoniamoda text-[8vw] text-main-yellow lg:text-[4vw] 2xl:text-[6vh]">
 					About Me
 				</h1>
 				<p
