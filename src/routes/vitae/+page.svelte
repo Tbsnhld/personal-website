@@ -22,8 +22,7 @@
 			Computer Science · Class of 2026
 		</p>
 
-		<h1 class="mb-10 text-[clamp(4rem,12vw,8.5rem)] leading-[0.88] tracking-tight">
-			<span class="block text-foreground">Tobias</span>
+		<h1 class="mb-10 text-[clamp(4rem,12vw,8.5rem)] leading-[0.88] tracking-tight font-bodoniamoda">
 			<span class="block text-primary">Neuhold</span>
 		</h1>
 
