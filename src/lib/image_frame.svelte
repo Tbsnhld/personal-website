@@ -28,7 +28,6 @@
 
 	figure {
 		width: 545px;
-		height: 500px;
 		margin: 1em auto;
 	}
 
@@ -37,19 +36,19 @@
 		box-shadow: 4px 6px 12px 0 black;
 		border-width: 5px;
 		border-style: solid;
-		border-color: rgb(109, 84, 58) rgb(24, 19, 13) rgb(24, 19, 13) rgb(109, 84, 58);
+		border-color: rgb(91, 83, 52) rgb(26, 24, 19) rgb(45, 39, 31) rgb(95, 81, 54)
 	}
 
 	.flatSurface {
 		/* of frame */
-		border: 12px solid rgb(65, 40, 16);
+		border: 12px solid rgb(54, 41, 28);
 	}
 
 	.innerBevel {
 		/* of frame */
 		border-width: 5px;
 		border-style: solid;
-		border-color: rgb(24, 19, 13) rgb(109, 84, 58) rgb(109, 84, 58) rgb(24, 19, 13);
+		border-color: rgb(24, 19, 13) rgb(84, 75, 66) rgb(130, 108, 86) rgb(24, 19, 13);
 	}
 
 	.map {
@@ -62,6 +61,6 @@
 		background-color: rgb(255, 249, 224); /* Mat color */
 		border-width: 3px; /* Gold edge of mat */
 		border-style: solid;
-		border-color: rgb(207, 166, 0) rgb(207, 166, 0) rgb(145, 110, 0) rgb(145, 110, 0);
+		border-color: rgb(35, 30, 21) rgb(110, 95, 32) rgb(86, 77, 48) rgb(50, 47, 39);
 	}
 </style>
