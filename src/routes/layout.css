@@ -90,6 +90,7 @@
   --color-main-yellow: #c8a84b;
   --font-figne: "finge";
   --font-soria: "soria";
+  --font-lora: "Lora";
   --font-bukittinggi: "Bukittinggi";
   --font-behrensschrift: "Behrensschrift";
   --font-artnouveau: "ArtNouveauCaps";
@@ -280,4 +281,9 @@ body{
 @font-face {
   font-family: "BodoniModa";
   src: url("BodoniModa-Italic.ttf"); 
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("Lora.ttf"); 
 }
