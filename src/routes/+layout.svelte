@@ -10,8 +10,8 @@
 	</div>
 	<div class="crown-molding-bottom"></div>
 	<nav>
-		<a href="/" class="home-link">
-			<span class="font-figne text-main-yellow">Home</span>
+		<a href="/" class="home-link items-center flex flex-col  w-screen">
+			<span class="font-bodoniamoda uppercase text-[1.2vh] text-main-yellow">Home</span>
 		</a>
 	</nav>
 </div>
