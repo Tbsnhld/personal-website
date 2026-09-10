@@ -1,6 +1,14 @@
 <script>
 	import ImageFrame from '$lib/image_frame.svelte';
 	import DecoratorLine from '$lib/DecoratorLine.svelte';
+
+  let links = [
+    { label: "GitHub", href: "https://github.com/Tbsnhld" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/tobias-neuhold/" },
+    { label: "tobias@nhld.net", href: "mailto:tobias@nhld.net" },
+    { label: "CV / Résumé", href: "#" },
+  ]
+
 </script>
 
 <div class="flex h-full min-h-0 flex-col p-[2vw] lg:pr-[5vw] lg:pl-[5vw]">
@@ -17,23 +25,33 @@
 			</div>
 			<div class="jugendstil-border">
 				<h1 class="mb-8 font-bodoniamoda text-[8vw] text-main-yellow lg:text-[4vw] 2xl:text-[6vh]">
-					About Me
+					About
 				</h1>
 				<p
-					class="mb-6 font-soria text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
+					class="mb-6 font-lora text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
 				>
-					A passionate creator of digital experiences, blending artistry with code. My work draws
-					inspiration from the flowing lines and organic forms of Jugendstil, creating interfaces
-					that feel alive and breathing.
+          I am a masters computer science student with a special interest in data, security and privacy at the 
+          University Kassel. The core however will always be the human for me with technology being supposed to assist and protect. 
 				</p>
 				<div class="floral-divider"></div>
 				<p
-					class="font-soria text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
+					class="font-lora text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
 				>
-					With roots in traditional craftsmanship and branches in modern technology, I craft digital
-					spaces where form and function harmonize like a well-composed symphony.
+          Besides computer science, I enjoy to move my body: weight lifting, cycling, running and hiking are part of my daily life.
+          My guilty pleasure however would be watching documentaries and reading about nature, history and - of course - technology.
 				</p>
 			</div>
+        <div class="flex flex-wrap gap-5 pt-4">
+        {#each links as link}
+          <a
+            key={link.label}
+            href={link.href}
+            class="font-mono text-[1.5vh] tracking-[0.16em] text-foreground hover:text-primary transition-colors border-b border-current pb-px"
+          >
+            {link.label}
+          </a>
+        {/each}
+      </div>
 		</div>
 	</div>
 </div>
