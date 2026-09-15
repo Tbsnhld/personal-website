@@ -101,30 +101,23 @@
 :root {
   --color-main-dark: #001514;   /* your base — hue 177°, this is level 900 */
 
-  --molding-50: #10210f;
-  --molding-100: #021400;
-  --molding-200: #0d1a0c;
-  --molding-300: #0b0f0b;
-  --molding-400: #090f08;
-  --molding-500: #122710;
-  --molding-600: #142712;
-  --molding-700: #162e14;
-  --molding-800: #091609;
-  --molding-900: #0b160a;  /* brightest highlight */
-  
-  
-  
-  
-  
-  
-  
+  --molding-50: #08130a;
+  --molding-100: #040f02;
+  --molding-200: #060f06;
+  --molding-300: #101a10;
+  --molding-400: #080d07;
+  --molding-500: #0c1a0b;
+  --molding-600: #0c1a0a;
+  --molding-700: #091308;
+  --molding-800: #091309;
+  --molding-900: #080f08; 
   
     /* = --color-main-dark, shadow melts into wall */
 
   --font-size: 16px;
   --background: #0a1409;
   --foreground: #f0e6ce;
-  --card: #111d10;
+  --card: rgb(8, 19, 10);
   --card-foreground: #f0e6ce;
   --popover: #111d10;
   --popover-foreground: #f0e6ce;
