@@ -84,7 +84,6 @@
 	.home-link {
 		position: fixed;
 		bottom: 2rem;
-		left: 2rem;
 		font-size: 1rem;
 		text-decoration: none;
 		transition: opacity 0.3s ease;
