@@ -8,7 +8,7 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
   {#each groups as group}
     <div key={group.category}>
-      <h3 class="font-mono text-[10px] tracking-[0.22em] uppercase text-primary mb-4 pb-2.5 border-b border-primary/20">
+      <h3 class="font-mono text-sm tracking-[0.22em] uppercase text-primary mb-4 pb-2.5 border-b border-primary/20">
         {group.category}
       </h3>
       <ul class="space-y-2">
@@ -23,4 +23,4 @@
       </ul>
     </div>
   {/each}
-</div>>
+</div>
