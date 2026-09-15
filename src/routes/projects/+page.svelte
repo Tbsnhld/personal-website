@@ -13,10 +13,9 @@ import {projects} from '$lib/data/projects.ts';
   </div>
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-24">
-      <p class="font-mono text-md tracking-[0.35em] uppercase text-primary mb-5">Portfolio</p>
+      <p class="text-md tracking-[0.35em] uppercase text-primary mb-5">Portfolio</p>
       <h1
-        class="text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] text-foreground mb-8"
-        style={{ fontFamily: "'Bodoni Moda', Georgia, serif", fontStyle: "italic" }}
+        class="font-bodoniamoda text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] text-foreground mb-8"
       >
         Projects
       </h1>
