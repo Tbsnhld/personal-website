@@ -20,7 +20,7 @@
 		</p>
 
 		<h1 class="mb-10 text-[clamp(8rem,12vw,12rem)] leading-[0.88] tracking-tight font-bodoniamoda">
-			<span class="block text-foreground ">Tobias</span>
+			<span class="block text-foreground">Tobias</span>
 			<span class="block text-primary">Neuhold</span>
 		</h1>
 
@@ -28,29 +28,27 @@
 			<DecoratorLine />
 		</div>
 
-		<p
-			class="text-primay-foreground mb-14 font-lora text-md tracking-[0.22em] uppercase md:text-s"
-		>
-			Data &nbsp;·&nbsp; Privacy &nbsp;·&nbsp; Security 
+		<p class="text-primary-foreground mb-14 font-lora text-sm tracking-[0.22em] uppercase md:text-base">
+			Data &nbsp;·&nbsp; Privacy &nbsp;·&nbsp; Security
 		</p>
 
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-      href="projects"
+			class="backdrop-blur-sm group font-lora font-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			href="projects"
 		>
 			View Projects
 		</a>
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-      href="/vitae"
+			class="backdrop-blur-sm group font-lora font-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			href="/vitae"
 		>
-		  Vitae	
+			Vitae
 		</a>
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-      href="/about"
+			class="backdrop-blur-sm group font-lora font-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			href="/about"
 		>
-		  About	
+			About
 		</a>
 	</div>
 

@@ -88,12 +88,6 @@
   --color-main-red: #6B0504;
   --color-main-orange: #A3320B;
   --color-main-yellow: #c8a84b;
-  --font-figne: "finge";
-  --font-soria: "soria";
-  --font-lora: "Lora";
-  --font-bukittinggi: "Bukittinggi";
-  --font-behrensschrift: "Behrensschrift";
-  --font-artnouveau: "ArtNouveauCaps";
   --font-lora: "Lora";
   --font-bodoniamoda: "BodoniModa";
 }
@@ -236,49 +230,18 @@
 }
 
 body{
-  background-color: #001514;
-  color: #FBFFFE;
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),
     url("js_bg.jpg");
 }
-
 @font-face {
-  font-family: "ArtNouveauCaps";
-  src: url("ArtNouveauCaps.ttf");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Bukittinggi";
-  src: url("Bukittinggi.otf");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "soria";
-  src: url("soria-font.ttf");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Behrensschrift";
-  src: url("Behrensschrift.ttf"); font-display: swap;
-}
-
-@font-face {
-  font-family: "Finge";
-  font-weight: bold; 
-  src: url("Finge.woff"); 
+  font-family: "Lora";
+  src: url("Lora.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "BodoniModa";
-  src: url("BodoniModa-Italic.ttf"); 
-}
-
-@font-face {
-  font-family: "Lora";
-  src: url("Lora.ttf"); 
+  src: url("BodoniModa-Italic.ttf");
+  font-display: swap;
 }
