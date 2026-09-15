@@ -28,29 +28,29 @@
 				</div>
 			</div>
 			<div class="jugendstil-border">
-				<h1 class="mb-8 font-bodoniamoda text-[8vw] text-main-yellow lg:text-[4vw] 2xl:text-[6vh]">
+				<h1 class="mb-8 font-bodoniamoda text-8xl text-main-yellow ">
 					About
 				</h1>
 				<p
-					class="mb-6 font-lora text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
+					class="font-lora text-md leading-relaxed text-main-light "
 				>
           I am a masters computer science student with a special interest in data, security and privacy at the 
           University Kassel. The core however will always be the human for me with technology being supposed to assist and protect. 
 				</p>
 				<div class="floral-divider"></div>
 				<p
-					class="font-lora text-[4vw] leading-relaxed text-main-light lg:text-[2vw] 2xl:text-[2vh]"
+					class="font-lora text-md leading-relaxed text-main-light "
 				>
           Besides computer science, I enjoy to move my body: weight lifting, cycling, running and hiking are part of my daily life.
           My guilty pleasure however would be watching documentaries and reading about nature, history and - of course - technology.
 				</p>
 			</div>
-        <div class="flex flex-wrap gap-5 pt-4">
+        <div class="font-lora flex flex-wrap gap-5 pt-4">
         {#each links as link}
           <a
             key={link.label}
             href={link.href}
-            class="font-mono text-[1.5vh] tracking-[0.16em] text-foreground hover:text-primary transition-colors border-b border-current pb-px"
+            class="text-[1.5vh] tracking-[0.16em] text-foreground hover:text-primary transition-colors border-b border-current pb-px"
           >
             {link.label}
           </a>
