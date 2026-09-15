@@ -1,6 +1,7 @@
 <script>
 	import ImageFrame from '$lib/image_frame.svelte';
 	import DecoratorLine from '$lib/DecoratorLine.svelte';
+  import CornerOrnamentContainer from '$lib/CornerOrnamentContainer.svelte';
 
   let links = [
     { label: "GitHub", href: "https://github.com/Tbsnhld" },
@@ -11,7 +12,10 @@
 
 </script>
 
-<div class="flex h-full min-h-0 flex-col p-[2vw] lg:pr-[5vw] lg:pl-[5vw]">
+<div class="relative flex h-full min-h-0 flex-col p-[2vw] lg:pr-[5vw] lg:pl-[5vw]">
+  <div class="pointer-events-none absolute inset-0">
+    <CornerOrnamentContainer />
+  </div>
 	<div class="flex flex-shrink-0 grow flex-col gap-8 lg:flex-row">
 		<div class="mr-[10vw] hidden 2xl:inline-flex flex flex-col justify-center">
 			<ImageFrame image_url="/icon.jpg" />
@@ -75,7 +79,7 @@
 		border-top: 1px solid rgba(212, 169, 0, 0.3);
 		border-bottom: 1px solid rgba(212, 169, 0, 0.3);
 		border-right: none;
-		background: rgba(0, 21, 20, 0.7);
+		background: rgba(8, 19, 10, 0.7);
 		backdrop-filter: blur(2px);
 	}
 
