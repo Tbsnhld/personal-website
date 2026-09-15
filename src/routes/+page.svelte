@@ -35,25 +35,25 @@
 		</div>
 
 		<p
-			class="text-primay-foreground mb-14 font-lora text-[1.2vh] tracking-[0.22em] uppercase md:text-s"
+			class="text-primay-foreground mb-14 font-lora text-[1.5vh] tracking-[0.22em] uppercase md:text-s"
 		>
 			Data &nbsp;·&nbsp; Privacy &nbsp;·&nbsp; Security 
 		</p>
 
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.2vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.5vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
       href="projects"
 		>
 			View Projects
 		</a>
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.2vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.5vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
       href="/vitae"
 		>
 		  Vitae	
 		</a>
 		<a
-			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.2vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+			class="backdrop-blur-xs group font-mono-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-[1.5vh] tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
       href="/about"
 		>
 		  About	
