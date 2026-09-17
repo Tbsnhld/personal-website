@@ -2,7 +2,7 @@
 	let { image_url } = $props();
 </script>
 
-<figure>
+<figure >
 	<div class="outerBevel">
 		<div class="flatSurface">
 			<div class="innerBevel">
@@ -27,7 +27,7 @@
 	}
 
 	figure {
-		width: 545px;
+		width: max(30vw,450px);
 		margin: 1em auto;
 	}
 

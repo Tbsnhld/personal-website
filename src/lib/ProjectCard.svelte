@@ -18,23 +18,23 @@ let { projectTitle = "Default", projectYear, projectTech= ['a', 'b', 'c'], proje
 
       <div class="flex items-start justify-between gap-3">
         <h3
-          class="text-[1.2rem] leading-tight text-foreground group-hover:text-primary transition-colors duration-300"
+          class="text-2xl leading-tight text-foreground group-hover:text-primary transition-colors duration-300"
         >
           {projectTitle}
         </h3>
-        <span class="font-mono text-[10px] text-muted-foreground shrink-0 mt-1.5 tracking-[0.1em]">
+        <span class="font-mono text-xs text-muted-foreground shrink-0 mt-1.5 tracking-[0.1em]">
           {projectYear}
         </span>
       </div>
 
-      <p class="text-sm text-foreground/65 leading-[1.75] flex-1">
+      <p class="text-md text-foreground/65 leading-[1.75] flex-1">
         {projectDescription}
       </p>
 
       <div class="flex flex-wrap gap-1.5 pt-1">
         {#each projectTech as tech}
           <span
-            class="font-mono text-[9px] tracking-[0.12em] px-2 py-1 border border-primary/22 text-muted-foreground"
+            class="font-mono text-xs tracking-[0.12em] px-2 py-1 border border-primary/22 text-muted-foreground"
           >
             {tech}
           </span>
@@ -46,7 +46,7 @@ let { projectTitle = "Default", projectYear, projectTech= ['a', 'b', 'c'], proje
     <div class="border-t border-primary/15 px-6 py-3.5 flex items-center gap-5 relative">
       <a
         href={repoUrl}
-        class="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] text-muted-foreground hover:text-primary transition-colors"
+        class="inline-flex items-center gap-1.5 font-mono text-xs tracking-[0.12em] text-muted-foreground hover:text-primary transition-colors"
       >
         Source
       </a>
@@ -54,7 +54,7 @@ let { projectTitle = "Default", projectYear, projectTech= ['a', 'b', 'c'], proje
       {#if liveUrl != ""}
         <a
           href={liveUrl}
-          class="inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] text-muted-foreground hover:text-primary transition-colors"
+          class="inline-flex items-center gap-1.5 font-mono text-xs tracking-[0.12em] text-muted-foreground hover:text-primary transition-colors"
         >
           Live
         </a>
