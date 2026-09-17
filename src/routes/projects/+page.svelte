@@ -15,14 +15,14 @@ import {projects} from '$lib/data/projects.ts';
     <div class="text-center mb-24">
       <p class="text-md tracking-[0.35em] uppercase text-primary mb-5">Portfolio</p>
       <h1
-        class="font-bodoniamoda text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] text-foreground mb-8"
+        class="font-bodoniamoda text-8xl md:text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] text-foreground mb-8"
       >
         Projects
       </h1>
       <div class="flex justify-center">
         <DecoratorLine class="max-w-sm" />
       </div>
-      <p class="mt-5 text-sm text-foreground max-w-lg mx-auto leading-relaxed">
+      <p class="mt-5 text-md md:text-lg text-foreground max-w-lg mx-auto leading-relaxed">
         A selection of systems, tools, and experiments built across the last years of study. 
       </p>
     </div>
@@ -33,8 +33,8 @@ import {projects} from '$lib/data/projects.ts';
           <ProjectCard 
             projectTitle={project.title}
             projectYear={project.year}
-            projectTech={project.tech }
-            projectDescription={project.description }
+            projectTech={project.tech}
+            projectDescription={project.description}
             repoUrl={project.repoUrl}
             liveUrl={project.liveUrl}
           />
