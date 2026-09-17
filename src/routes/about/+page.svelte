@@ -17,32 +17,34 @@
     <CornerOrnamentContainer />
   </div>
 	<div class="flex flex-shrink-0 grow flex-col gap-8 lg:flex-row">
-		<div class="mr-[10vw] hidden 2xl:inline-flex flex flex-col justify-center">
+		<div class="mr-[10vw] hidden xl:inline-flex flex flex-col justify-center">
 			<ImageFrame image_url="/icon.jpg" />
 		</div>
 
 		<div class="jugendstil-content">
 			<div class="flex w-full flex-col items-center">
-				<div class="w-[20vw]">
+				<div class="lg:w-[20vw]">
 					<DecoratorLine />
 				</div>
 			</div>
 			<div class="jugendstil-border">
-				<h1 class="mb-8 font-bodoniamoda text-8xl text-main-yellow ">
+				<h1 class="mb-8 font-bodoniamoda text-6xl md:text-8xl text-main-yellow ">
 					About
 				</h1>
 				<p
-					class="font-lora text-md leading-relaxed text-main-light "
+					class="font-lora text-sm md:text-md leading-relaxed text-main-light "
 				>
-          I am a masters computer science student with a special interest in data, security and privacy at the 
-          University Kassel. The core however will always be the human for me with technology being supposed to assist and protect. 
+          I want to build systems and use technology for humans - Family, Friends, others 
+          stumbling across the same wants and needs and sometimes just for myself. 
+
 				</p>
 				<div class="floral-divider"></div>
 				<p
-					class="font-lora text-md leading-relaxed text-main-light "
+					class="font-lora text-sm md:text-md leading-relaxed text-main-light "
 				>
-          Besides computer science, I enjoy to move my body: weight lifting, cycling, running and hiking are part of my daily life.
-          My guilty pleasure however would be watching documentaries and reading about nature, history and - of course - technology.
+          My spare time is mostly spent cooking, moving my body, or being invested 
+          in a new piece of media, be it movies, books or video games. Oh and I enjoy 
+          <a href="https://tnhld.mypixieset.com/">photography</a>.
 				</p>
 			</div>
         <div class="font-lora flex flex-wrap gap-5 pt-4">
