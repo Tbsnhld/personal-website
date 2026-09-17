@@ -1,17 +1,19 @@
 <script lang="ts">
 	import './layout.css';
+  import MobileHeader from '$lib/MobileHeader.svelte';
 	const { children } = $props();
 </script>
 
 <div class="relative flex h-screen w-screen flex-col">
-	<div class="crown-molding-top"></div>
+	<div class="hidden lg:block crown-molding-top"></div>
+  <MobileHeader/>
 	<div class="min-h-0 flex-1 overflow-auto">
 		{@render children()}
 	</div>
-	<div class="crown-molding-bottom"></div>
+	<div class="hidden lg:block crown-molding-bottom"></div>
 	<nav>
-		<a href="/" class="home-link items-center flex flex-col  w-screen">
-			<span class="font-bodoniamoda uppercase text-[1.2vh] text-main-yellow">Home</span>
+		<a href="/" class="hidden lg:flex home-link items-center flex-col  w-screen">
+			<span class="font-bodoniamoda uppercase text-xs text-main-yellow">Home</span>
 		</a>
 	</nav>
 </div>
