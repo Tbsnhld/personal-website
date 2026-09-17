@@ -22,7 +22,7 @@ import { education } from '$lib/data/education';
           Curriculum
         </p>
         <h1
-          class="font-bodoniamoda text-[clamp(5rem,10vw,10rem)] leading-[0.9] text-foreground mb-8 italic"
+          class="font-bodoniamoda text-8xl md:text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] text-foreground mb-8"
         >
           Vitae
         </h1>
