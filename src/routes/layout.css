@@ -232,16 +232,16 @@
 body{
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),
-    url("js_bg.jpg");
+    url("/images/js_bg.jpg");
 }
 @font-face {
   font-family: "Lora";
-  src: url("Lora.ttf");
+  src: url("/fonts/Lora.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "BodoniModa";
-  src: url("BodoniModa-Italic.ttf");
+  src: url("/fonts/BodoniModa-Italic.ttf");
   font-display: swap;
 }
