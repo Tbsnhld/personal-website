@@ -51,5 +51,9 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"@sveltejs/adapter-node": "^5.5.7",
+		"@sveltejs/adapter-static": "^3.0.10"
+	}
 }
