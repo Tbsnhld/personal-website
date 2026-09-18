@@ -2,10 +2,10 @@
 let {label, title} = $props();
 </script>
 
-<div class="flex flex-col items-start mb-10">
-  <p class="font-lora text-xs tracking-[0.35em] text-primary uppercase">{label}</p>
+<div class="flex flex-col items-center sm:items-start mb-10">
+  <p class="font-lora text-sm tracking-[0.35em] text-primary uppercase">{label}</p>
   <h1
-    class="text-3xl md:text-5xl text-foreground mb-4 leading-tight"
+    class="text-5xl md:text-5xl text-foreground mb-4 leading-tight"
     style={{ fontFamily: "'Bodoni Moda', Georgia, serif", fontStyle: "italic" }}
   >
     {title}
