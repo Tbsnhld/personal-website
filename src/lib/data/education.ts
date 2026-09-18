@@ -15,7 +15,7 @@ export const education: EducationEntry[] = [
     location: "Kassel, Germany",
     gpa: "",
     notes: [
-      "Focusing on Software Engineering as well as Cryptography",
+      "Focusing on Software Engineering, Cryptography and modern technology challenges",
     ]
   },
   {
