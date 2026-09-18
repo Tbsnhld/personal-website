@@ -7,7 +7,7 @@
     { label: "GitHub", href: "https://github.com/Tbsnhld" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/tobias-neuhold/" },
     { label: "tobias@nhld.net", href: "mailto:tobias@nhld.net" },
-    { label: "CV / Résumé", href: "#" },
+    { label: "CV / Résumé", href: "/Lebenslauf_Neuhold.pdf" },
   ]
 
 </script>
