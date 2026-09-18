@@ -18,7 +18,7 @@
   </div>
 	<div class="flex flex-shrink-0 grow flex-col gap-8 lg:flex-row">
 		<div class="mr-[10vw] hidden xl:inline-flex flex flex-col justify-center">
-			<ImageFrame image_url="/icon.jpg" />
+			<ImageFrame image_url="/images/icon.jpg" />
 		</div>
 
 		<div class="jugendstil-content">
