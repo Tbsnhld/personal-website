@@ -44,7 +44,7 @@
 				>
           My spare time is mostly spent cooking, moving my body, or being invested 
           in a new piece of media, be it movies, books or video games. Oh and I enjoy 
-          <a href="https://tnhld.mypixieset.com/">photography</a>.
+          <a class="hover:text-primary"href="https://tnhld.mypixieset.com/">photography</a>.
 				</p>
 			</div>
         <div class="font-lora flex flex-wrap gap-5 pt-4">
