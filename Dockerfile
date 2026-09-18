@@ -29,11 +29,11 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0
-ENV PORT=3000
+ENV PORT=8080
 
 COPY --from=prod-deps /app/node_modules ./node_modules
 COPY --from=build /app/build ./build
 
-EXPOSE 3000
+EXPOSE 8080 
 
 CMD ["node", "build"]
