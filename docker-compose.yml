@@ -1,22 +1,29 @@
 services: 
   reverse-proxy:
-    image: traefik:v3.1
+    image: traefik:v3
     command:
       - "--api.insecure=true"
       - "--providers.docker"
       - "--providers.docker.exposedbydefault=false"
       - "--entryPoints.websecure.address=:443"
-      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
-      - "--certificatesresolvers.myresolver.acme.email=cert@nhld.net"
+      - "--certificatesresolvers.myresolver.acme.email=tobias.neuhold@outlook.de"
       - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+      - "--certificatesresolvers.myresolver.acme.dnsChallenge.provider=cloudflare"
+      - "--certificatesresolvers.myresolver.acme.dnsChallenge.resolvers=1.1.1.1:53,8.8.8.8:53"
+    environment:
+      - CF_DNS_API_TOKEN=${CDF_TOKEN}
     ports:
-      - "8443:443"
+      - "2053:443"
       - "8081:8080"
       - "8000:80"
     volumes:
       - letsencrypt:/letsencrypt
       - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - proxy
   sveltekit-docker:
+    networks:
+      - proxy
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.personalwebsite.rule=Host(`nhld.net`)"
@@ -27,3 +34,6 @@ services:
       dockerfile: Dockerfile
 volumes: 
   letsencrypt:
+
+networks:
+  proxy:
