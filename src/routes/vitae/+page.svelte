@@ -35,7 +35,7 @@ import { education } from '$lib/data/education';
 
         <div class="mt-4">
           <a
-            href="#"
+            href="/Lebenslauf_Neuhold.pdf" 
             class="backdrop-blur-sm group font-lora font-bold inline-flex items-center gap-3 border border-primary/40 px-18 py-3.5 text-sm tracking-[0.22em] text-primary uppercase transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
           >
             Download PDF
