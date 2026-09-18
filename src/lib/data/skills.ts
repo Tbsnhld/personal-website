@@ -10,15 +10,15 @@ export const skills: SkillGroup[] = [
   },
   {
     category: "Frameworks & Libraries",
-    items: ["Node.js", "Pandas", "Django", "Express", "Numpy"]
+    items: ["Node.js", "Pandas", "Numpy"]
   },
   {
     category: "Databases ",
-    items: ["PostgreSQL", "MongoDB", "SQLite", "Salesforce"]
+    items: ["PostgreSQL", "MongoDB"]
   },
   {
     category: "Tools",
-    items: ["Git", "Docker", "VS Code", "Vite", "SvelteKit"]
+    items: ["Git", "Docker", "GitHub Actions", "GitLab"]
   },
   {
     category: "Design",

@@ -15,17 +15,18 @@ export const experience: ExperienceEntry[] = [
     location: "Lübeck, Germany",
     type: "Institute for IT-Security ",
     notes: [
-      "Continuing development of my bachelors thesis tool",
-    ]
+      "Continued research building on my bachelor's thesis",
+      "Developing a tool for analyzing attacks on released statistical information",]
   },
   {
-    position: "Studentische Hilftskraft",
+    position: "Studentische Hilfskraft",
     period: "2026 - Present",
     institution: "Universität Kassel",
     location: "Kassel, Germany",
     type: "Automation and Sensorics in Networked Systems",
     notes: [
-    ]
+      "Building a digital twin of the Therme Bad Wörishofen",
+      "Developing forecasting methods for uncertain values",]
   },
   {
     position: "Working Student Software Development",
@@ -34,7 +35,11 @@ export const experience: ExperienceEntry[] = [
     location: "Langenfeld, Germany",
     type: "Remote",
     notes: [
-    ]
+      "Developed Apex solutions on the Salesforce platform",
+      "Built a custom Salesforce logging framework integrated with Sentry",
+      "Implemented e-commerce shop frontends",
+      "Automated data migrations with custom Python scripts",
+      "Set up CI/CD pipelines using GitHub Actions",]
   },
   {
     position: "Studentische Hilfskraft",
@@ -43,6 +48,7 @@ export const experience: ExperienceEntry[] = [
     location: "Lübeck, Germany",
     type: "Institute of Human-Centered Interactive Systems",
     notes: [
-    ]
+      "Conducted research in human-centered interactive systems and e-governance solutions",
+      "Co-developed a digital children's book for educational use",]
   }
 ];

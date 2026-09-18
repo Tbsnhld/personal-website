@@ -11,10 +11,10 @@ export const projects: Project[] = [
   {
     title: "Portfolio Website",
     year: 2026,
-    tech: ["Svelte", "Svelte Kit", "Figma"],
+    tech: ["Svelte", "Svelte Kit", "Figma", "TailwindCSS"],
     description: "Current Personal Website",
-    repoUrl: "youtube.com" as URL,
-    liveUrl: "google.com" as URL,
+    repoUrl: "https://github.com/Tbsnhld/personal-website" as URL,
+    liveUrl: "https://nhld.net" as URL,
   },
 ];
 

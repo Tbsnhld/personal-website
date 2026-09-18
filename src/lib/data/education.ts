@@ -13,11 +13,9 @@ export const education: EducationEntry[] = [
     period: "2026 - today",
     institution: "University Kassel",
     location: "Kassel, Germany",
-    gpa: "GPA: 3.8/4.0",
+    gpa: "",
     notes: [
-      "Relevant coursework in Web Development, Algorithms, and Data Structures",
-      "Graduated with Honors",
-      "Thesis: Modern Web Frameworks Comparison"
+      "Focusing on Software Engineering as well as Cryptography",
     ]
   },
   {
@@ -25,21 +23,19 @@ export const education: EducationEntry[] = [
     period: "2021 - 2026",
     institution: "University of Lübeck",
     location: "Lübeck, Germany",
-    gpa: "GPA: 3.8/4.0",
+    gpa: "",
     notes: [
-      "Relevant coursework in Web Development, Algorithms, and Data Structures",
-      "Graduated with Honors",
-      "Thesis: Modern Web Frameworks Comparison"
+      "Basics of Computer Science with some extras in Human-Computer-Interaction and Design",
+      "Thesis: Implementation and Experimental Analysis of Statistical Privacy (Grade 1.0)"
     ]
   },
   {
     degree: "Abitur",
-    period: "2020",
+    period: "2012-2020",
     institution: "Stiftsgymnasium Sindelfingen",
     location: "Sindelfingen, Germany",
-    gpa: "GPA: 3.9/4.0",
+    gpa: "",
     notes: [
-      "Focus on Mathematics and Natural Sciences"
     ]
   }
 ];
