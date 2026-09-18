@@ -1,31 +1,65 @@
-# Svelte library
+# Portfolio Website
 
-Everything you need to build a Svelte library, powered by [`sv`](https://npmjs.com/package/sv).
+A personal portfolio website showcasing my experiences, projects, and creative work. Built to provide a unique online presence with an artistic design approach.
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## About
 
-## Creating a project
+This portfolio website was designed with inspiration from the **Jugendstil** (Art Nouveau) movement of the late 1890s, combined with modern design principles. The concept creates a "wall of myself" experience, presenting my work in an engaging, visually distinctive manner.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The website was initially prototyped in **[Figma](https://www.figma.com/)** and implemented using **[Svelte](https://svelte.dev/)** with **[SvelteKit](https://kit.svelte.dev/)**.
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Technologies
 
-# create a new project in my-app
-npx sv create my-app
+- **Framework**: [SvelteKit](https://kit.svelte.dev/) - The official application framework for Svelte
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
+- **Build Tool**: [Vite](https://vitejs.dev/) - Next generation frontend tooling
+
+## Project Structure
+
+```
+personal-website/
+├── src/
+│   ├── lib/           # Reusable components and utilities
+│   ├── routes/        # Page routes and application pages
+│   ├── app.html      # Base HTML template
+│   └── app.d.ts      # TypeScript declarations
+├── static/           # Static assets (images, fonts, etc.)
+├── package.json      # Project configuration and dependencies
+└── README.md         # This file
 ```
 
-To recreate this project with the same configuration:
+## Getting Started
 
-```sh
-# recreate this project
-pnpm dlx sv@0.16.5 create --template library --types ts --add prettier tailwindcss="plugins:typography" --install pnpm personal-website
-```
+### Prerequisites
 
-## Developing
+- Node.js (v18 or later recommended)
+- npm, pnpm, or yarn
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/tobinhld/personal-website.git
+   ```
+
+2. Navigate to the project directory:
+   ```sh
+   cd personal-website
+   ```
+
+3. Install dependencies:
+   ```sh
+   npm install
+   # or
+   pnpm install
+   # or
+   yarn install
+   ```
+
+## Development
+
+Start a development server with hot module replacement:
 
 ```sh
 npm run dev
@@ -34,32 +68,78 @@ npm run dev
 npm run dev -- --open
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+Open [http://localhost:5173](http://localhost:5173) to view the application in your browser.
 
-## Building
+## Building for Production
 
-To build your library:
-
-```sh
-npm pack
-```
-
-To create a production version of your showcase app:
+To create a production-ready build:
 
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+This will:
+- Build the Svelte components
+- Generate optimized production assets
+- Package the application for deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### Preview Production Build
 
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
+You can preview the production build locally:
 
 ```sh
-npm publish
+npm run preview
 ```
+
+## Deployment
+
+This project uses [@sveltejs/adapter-auto](https://kit.svelte.dev/docs/adapters#universal-adapters), which automatically selects the appropriate adapter based on your deployment target.
+
+### Deploying to Popular Platforms
+
+- **Vercel**: Install `@sveltejs/adapter-vercel` and follow [SvelteKit Vercel deployment guide](https://kit.svelte.dev/docs/adapters#supported-environmentvercel)
+- **Netlify**: Install `@sveltejs/adapter-netlify` and follow [SvelteKit Netlify deployment guide](https://kit.svelte.dev/docs/adapters#supported-environmentsnetlify)
+- **GitHub Pages**: Install `@sveltejs/adapter-static` for static site generation
+- **Node Server**: Install `@sveltejs/adapter-node` for traditional server deployment
+
+### Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start development server with HMR |
+| `npm run build` | Create production build |
+| `npm run preview` | Preview production build locally |
+| `npm run check` | Run type checking with SvelteKit |
+| `npm run lint` | Check code formatting with Prettier |
+| `npm run format` | Format code with Prettier |
+
+## Code Quality
+
+This project uses:
+
+- **[Prettier](https://prettier.io/)** for consistent code formatting
+- **[Svelte Check](https://kit.svelte.dev/docs/code-quality#svelte-check)** for type checking
+- **[TypeScript](https://www.typescriptlang.org/)** for type safety
+
+Run formatting:
+```sh
+npm run format
+```
+
+Run linting:
+```sh
+npm run lint
+```
+
+Run type checking:
+```sh
+npm run check
+```
+
+## License
+
+This project is personal portfolio code. Feel free to explore the codebase to understand the implementation, but please respect the content and design as my personal work.
+
+## Contact
+
+For any questions or feedback about this portfolio, feel free to reach out.
